@@ -21,27 +21,3 @@ const client = new MongoClient(DB_URI);
 await client.connect()
 console.log(`Conectado a BD ${DB_URI}/${dbName}`)
 export default client.db(dbName) // return database
-
-
-
-
-
-
-// async function main() {
-//     // Use connect method to connect to the server
-//     await client.connect();
-//     console.log('Connected successfully to server');
-//     const db = client.db(dbName);
-//     // const collection = db.collection('articulos');
-  
-//     // the following code examples can be pasted here...
-  
-//     // return 'done.';
-//   }
-  
-//   main()
-//     .then(console.log)
-//     .catch(console.error)
-//     .finally(() => client.close());
-
-// export default client.db('tienda') // select database
