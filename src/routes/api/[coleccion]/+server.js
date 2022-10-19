@@ -1,5 +1,5 @@
 // https://awstip.com/how-to-create-a-svelte-kit-and-mongodb-app-63de01c6ff71
-import db from "$lib/server/db"
+import db from "$lib/db"
 
 // import { RequestHandler } from '@sveltejs/kit';
 

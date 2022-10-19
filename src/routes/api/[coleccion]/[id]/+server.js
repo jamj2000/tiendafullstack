@@ -1,5 +1,5 @@
 import { ObjectId } from 'mongodb';
-import db from "$lib/server/db"
+import db from "$lib/db"
 
 
 export async function GET(event) {
