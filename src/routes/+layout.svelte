@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>Código fuente en <a href="https://github.com/jamj2000/tiendafullstack">GitHub</a></p>
+		<p>Código fuente en <a href="https://github.com/jamj2000/tiendafullstack" target="popup">GitHub</a></p>
 	</footer>
 </div>
 
